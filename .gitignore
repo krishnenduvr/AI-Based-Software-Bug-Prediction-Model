@@ -1,0 +1,20 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints
+
+# OS / Editor Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large Model weights (optional - uncomment if you do not want to upload trained .joblib files)
+# outputs/models/*.joblib
